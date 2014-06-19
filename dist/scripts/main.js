@@ -1,3 +1,4 @@
+console.log('The Iron Yard Rocks');
 var personal_info = {
   "login": "joshdaniels",
   "id": 7781710,
@@ -1323,5 +1324,7 @@ var repos =[
     "default_branch": "master"
   }
 ]
-
+personal_info.forEach(function(a){
+  avatar= '<div class="avatar">' + '<img src="' + a.avatar_url + '</div>';
+});
 
