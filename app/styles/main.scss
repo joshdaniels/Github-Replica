@@ -12,7 +12,7 @@ height: 88px;
 width: 553px;
 float: right;
 clear: both;
-margin-right: 261px;
+margin-right: 135px;
 }
 
 
@@ -29,11 +29,12 @@ margin-right: 261px;
   
 .left_column {
 height: 437px;
-width: 250px;
+width: 204px;
 float: left;
 padding-left: 10px;
 padding-right: 10px;
 box-sizing: border-box;
+margin-left: 179px;
 }
 
 .my_image{
@@ -71,6 +72,7 @@ border-top: 1px solid #eee;
 padding: 0;
 margin-top: 0;
 margin-bottom: 0;
+width: 192px;
 }
 
 .email_container{
@@ -86,7 +88,6 @@ color: #ccc;
 }
 .right_column{
 float: left;
-padding-left: 10px;
 padding-right: 10px;
 list-style-type: none;
 }
@@ -106,4 +107,7 @@ white-space: nowrap;
 font-weight: bold;
 border-top: 1px solid #eee;
 width: 546px;
+}
+.book{
+  color:black;
 }
