@@ -1,6 +1,21 @@
 
 @import 'bourbon/bourbon';
 
+.header{
+background-image:url("../images/header.png");
+height: 32px;
+}
+
+.top_menu{
+background-image:url("../images/top_menu.png");
+height: 88px;
+width: 553px;
+float: right;
+clear: both;
+margin-right: 261px;
+}
+
+
 
 .container{
   margin-top: 20px;
@@ -24,4 +39,71 @@ box-sizing: border-box;
 .my_image{
 float: left;
 width: 175px;
+}
+
+h1{
+display: block;
+overflow: hidden;
+width: 100%;
+font-size: 19px;
+text-overflow: ellipsis;
+color: #333333;
+margin: 0;
+}
+
+p{
+display: block;
+overflow: hidden;
+width: 100%;
+font-size: 15px;
+font-style: normal;
+font-weight: 300;
+color: #666;
+text-overflow: ellipsis;
+margin: 0;
+}
+
+.contact{
+list-style-type: none;
+padding-top: 15px;
+padding-bottom: 15px;
+border-top: 1px solid #eee;
+padding: 0;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+.email_container{
+list-style-type: none;
+}
+.mail{
+float: left;
+width: 16px;
+text-align: center;
+margin-left: -24px;
+color: #ccc;
+
+}
+.right_column{
+float: left;
+padding-left: 10px;
+padding-right: 10px;
+list-style-type: none;
+}
+
+.right_column_content{
+  margin-top: 0px;
+margin-bottom: 0px;
+}
+.repo_name{
+color: #4183c4;
+text-decoration: none;
+font-size: 16px;
+line-height: 54px;
+margin-top: 0;
+margin-bottom: 0;
+white-space: nowrap;
+font-weight: bold;
+border-top: 1px solid #eee;
+width: 546px;
 }

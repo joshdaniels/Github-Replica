@@ -20,14 +20,23 @@
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="../bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
+    <link rel="stylesheet" href="styles/octicons.css">
+
   </head>
   <body>
-        
+  <div class="header"></div>
+  <div class="top_menu"></div>      
   <div class="container">
     <div class="left_column">
         <div class="pi"></div>
         <img></img>
         <h1></h1>
+        <p ></p>
+        <ul class="contact"></ul>
+        <li class="email_container">
+        <img src="../images/mail.png" class="mail"></img>
+        <a class="email_link"></a>
+        </li>
         
 
 
@@ -50,10 +59,24 @@
 
     </div>
   </div>
+  <div class="right_column">
+  <ul class="right_column_content"></ul>
+  <li class="repo_name"></li>
+
+
+
+
+
+
+
+
+
+  </div>
     <script class="template" type="text/template">
    <img src="<%= avatar_url %> ", class="my_image"></img> 
    <h1><%= name %></h1>
-   
+   <p><%= login %></p>
+   <a><%= email %></a>
    
 
 
@@ -62,7 +85,16 @@
 
 
     </script>
+    <script class="template2" type="text/template">
+    <li class="repo_name"><%= name %></li>
 
+
+
+
+
+
+
+    </script>
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="../bower_components/jquery/dist/jquery.js"></script>
