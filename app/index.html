@@ -36,10 +36,14 @@
         <ul class="contact">
         <a class="email_link" href="mailto:daniels.joshua100@gmail.com">
             <img src="../images/mail.png" class="mail"/>
+
      
         </a>
+        <li class="more_info">
+        </li>
         </ul>
-        <li class="email_container"></li>
+
+        <!-- <li class="email_container"></li> -->
         
         
         
@@ -81,7 +85,7 @@
     <script class="template" type="text/template">
    <img src="<%= avatar_url %> ", class="my_image"></img> 
    <h1><%= name %></h1>
-   <p><%= login %></p>
+   <p class="login"><%= login %></p>
 
    
 
@@ -108,6 +112,16 @@
 
     <script class="template3" type="text/template">
     <li class="gmail"><%= email %></li>
+    <span class="octicon octicon-clock"></span>
+        <span class="joined">Joined on June 3 2014</span>
+        <li class="more_info">
+   <span class="followers"><%= followers %></span>
+   <span class="starred"><%= public_gists %></span>
+   <span class="following"><%= following %></span>
+   <p class="followers_text">Followers Starred Following</p>
+
+   
+
 
 
 

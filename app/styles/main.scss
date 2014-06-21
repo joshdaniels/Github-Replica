@@ -52,7 +52,7 @@ color: #333333;
 margin: 0;
 }
 
-p{
+.login{
 display: block;
 overflow: hidden;
 width: 100%;
@@ -140,4 +140,64 @@ padding-top: 10px;
 color: #4183c4;
 text-decoration: u;
 text-decoration: underline;
+}
+.octicon-clock{
+  color: lightgray;
+font-size: 12px;
+float: left;
+clear: both;
+padding-left: 2px;
+padding-top: 5px;
+}
+.joined{
+font-size: 11px;
+float: left;
+padding-left: 5px;
+padding-top: 5px;
+color: black;
+}
+.more_info{
+list-style-type: none;
+padding-top: 15px;
+padding-bottom: 15px;
+border-top: 1px solid #eee;
+padding: 0;
+margin-top: 0;
+margin-bottom: 0;
+width: 192px;
+float: left;
+clear: both;
+margin-top: 10px;
+}
+.followers{
+color: black;
+font-size: 23px;
+font-weight: bold;
+float: left;
+padding-top: 5px;
+padding-left: 12px;
+}
+.followers_text{
+float: left;
+clear: both;
+font-size: 10px;
+color: grey;
+margin: 0;
+word-spacing: 20px;
+}
+.starred{
+float: left;
+padding-top: 4px;
+padding-left: 50px;
+color: black;
+font-size: 23px;
+font-weight: bold;
+}
+.following{
+float: left;
+padding-top: 4px;
+padding-left: 50px;
+color: black;
+font-size: 23px;
+font-weight: bold;
 }
