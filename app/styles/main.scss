@@ -159,6 +159,17 @@ white-space: nowrap;
 font-weight: bold;
 border-top: 1px solid #eee;
 width: 546px;
+position:relative;
+z-index:1;
+}
+.accordian{
+position: absolute;
+z-index: 10;
+height: 14px;
+right: 438px;
+padding-top: 19px;
+width: 79px
+
 }
 .book{
 color:black;
@@ -296,4 +307,86 @@ float: left;
 clear: both;
 width: 1104px;
 background-size: cover;
+position:relative;
+z-index:1;
+}
+.terms{
+width: 30px;
+position: absolute;
+z-index: 10;
+height: 14px;
+left: 327px;
+padding-top: 42px;
+}
+.privacy{
+width: 30px;
+position: absolute;
+z-index: 10;
+height: 14px;
+left: 369px;
+padding-top: 42px;
+}
+.security{
+width: 30px;
+position: absolute;
+z-index: 10;
+height: 14px;
+left: 414px;
+padding-top: 42px;
+}
+.contact2{
+width: 30px;
+position: absolute;
+z-index: 10;
+height: 14px;
+left: 462px;
+padding-top: 42px;
+}
+.status{
+width: 30px;
+position: absolute;
+z-index: 10;
+height: 14px;
+right: 261px;
+padding-top: 42px;
+}
+.api{
+width: 30px;
+position: absolute;
+z-index: 10;
+height: 14px;
+right: 226px;
+padding-top: 42px;
+}
+.training{
+width: 30px;
+position: absolute;
+z-index: 10;
+height: 14px;
+right: 190px;
+padding-top: 42px;
+}
+.shop{
+width: 30px;
+position: absolute;
+z-index: 10;
+height: 14px;
+right: 151px;
+padding-top: 42px;
+}
+.blog2{
+width: 30px;
+position: absolute;
+z-index: 10;
+height: 14px;
+right: 119px;
+padding-top: 42px;
+}
+.about{
+width: 30px;
+position: absolute;
+z-index: 10;
+height: 14px;
+right: 84px;
+padding-top: 42px;
 }
