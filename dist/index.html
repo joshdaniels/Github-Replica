@@ -12,12 +12,40 @@
     <link rel="stylesheet" href="styles/main.css"/>
 
     <script src="scripts/vendor/modernizr.js"></script>
+    
+
   </head>
   <body>
-
+  <div class="header">
+    <a class="explore" href="https://github.com/explore"></a> 
+    <a class="gist" href="https://gist.github.com/"></a> 
+    <a class="blog" href="https://github.com/blog"></a>  
+    <a class="help" href="https://help.github.com/"></a>  
+  </div>
+  <div class="top_menu">
+      <a class="contributions" href="https://github.com/joshdaniels"></a>
+       <a class="public" href="https://github.com/joshdaniels?tab=activity"></a>
+      
+  </div>      
   <div class="container">
     <div class="left_column">
-         <div class="avatar"></div>
+        <div class="pi"></div>
+        <img></img>
+        <h1></h1>
+        <p ></p>
+        <ul class="contact">
+        <a class="email_link" href="mailto:daniels.joshua100@gmail.com">
+            <img src="../images/mail.png" class="mail"/>
+
+     
+        </a>
+        <li class="more_info">
+        </li>
+        </ul>
+
+        <!-- <li class="email_container"></li> -->
+        
+        
         
 
 
@@ -40,8 +68,95 @@
 
     </div>
   </div>
+  <div class="right_column">
+  <ul class="right_column_content">
+  </ul>
+ 
+
+
+
+
+
+
+
+
+
+  </div>
+  <div class="footer">
+    <a class="terms" href="https://help.github.com/articles/github-terms-of-service"></a> 
+    <a class="privacy" href="https://help.github.com/articles/github-privacy-policy"></a>
+    <a class="security" href="https://help.github.com/articles/github-security"></a>
+    <a class="contact2" href="https://github.com/contact"></a>
+    <a class="status" href="https://status.github.com/"></a>
+    <a class="api" href="https://developer.github.com/"></a>
+    <a class="training" href="http://training.github.com/"></a>
+    <a class="shop" href="https://github.myshopify.com/"></a>
+    <a class="blog2" href="https://github.com/blog"></a>
+    <a class="about" href="https://github.com/about"></a>
+
+  </div>
+    <script class="template" type="text/template">
+   <img src="<%= avatar_url %> ", class="my_image"></img> 
+   <h1><%= name %></h1>
+   <p class="login"><%= login %></p>
+
+   
+
+
+
+
+
+
+    </script>
+    <script class="template2" type="text/template">
+    <span class="mega-octicon octicon-repo book"></span>
+    <div class="repo_name">
+    <span class="repo_name_text"><%= name %></span>
+    <span class="fork_count"><%= forks_count %></span>
+    <span class="octicon octicon-git-branch"></span>
+    <span class="stargazer"><%= stargazers_count %></span>
+    <span class="octicon octicon-star"></span>
+    <span class="languages"><%= language %></span>
+     </div>
+
+        
+        
+    
     
 
+
+
+
+
+
+
+
+
+    </script>
+
+    <script class="template3" type="text/template">
+    <li class="gmail"><%= email %></li>
+    <span class="octicon octicon-clock"></span>
+        <span class="joined">Joined on June 3 2014</span>
+        <li class="more_info">
+   <span class="followers"><%= followers %></span>
+   <span class="starred"><%= public_gists %></span>
+   <span class="following"><%= following %></span>
+   <p class="followers_text">Followers Starred Following</p>
+
+   
+
+
+
+
+
+
+
+
+
+
+
+    </script>
     <script src="scripts/vendor.js"></script>
 
         <script src="scripts/main.js"></script>
