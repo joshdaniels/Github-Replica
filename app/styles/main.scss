@@ -4,6 +4,8 @@
 .header{
 background-image:url("../images/header.png");
 height: 32px;
+position:relative;
+z-index: 1;
 }
 
 .top_menu{
@@ -13,9 +15,58 @@ width: 553px;
 float: right;
 clear: both;
 margin-right: 135px;
+position:relative;
+z-index:1;
+}
+.contributions{
+height:55px;
+width:90px;
+position:absolute;
+z-index:10;
+height: 37px;
 }
 
+.public{
+height:55px;
+width:90px;
+position:absolute;
+z-index:10;
+height: 37px;
+left: 201px;
+}
+.explore{
 
+width: 47px;
+position: absolute;
+z-index: 10;
+height: 14px;
+left: 513px;
+padding-top: 10px;
+}
+.gist{
+width: 30px;
+position: absolute;
+z-index: 10;
+height: 14px;
+left: 565px;
+padding-top: 10px;
+}
+.blog{
+width: 30px;
+position: absolute;
+z-index: 10;
+height: 14px;
+left: 598px;
+padding-top: 10px;
+}
+.help{
+width: 30px;
+position: absolute;
+z-index: 10;
+height: 14px;
+left: 629px;
+padding-top: 10px;
+}
 
 .container{
   margin-top: 20px;
